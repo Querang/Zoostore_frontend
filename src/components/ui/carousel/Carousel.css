@@ -1,0 +1,11 @@
+.carousel-inner {
+    padding: 10%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("public/prev_arrow.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("public/next_arrow.svg");
+}
