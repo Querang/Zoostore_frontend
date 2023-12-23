@@ -1,4 +1,4 @@
 const CategoryDetail = () => {
-    return <div>ProductDetail</div>
+    return <div>CategoryDetail</div>
 }
 export default CategoryDetail

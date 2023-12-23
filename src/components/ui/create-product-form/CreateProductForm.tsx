@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 function CreateProductForm() {
     const [name, setName] = useState('')
 
-    const createCar = () => {
+    const createProduct = () => {
         console.log(name)
     }
     return (

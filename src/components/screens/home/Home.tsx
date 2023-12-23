@@ -5,14 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import NavbarComponent from "../../ui/navbar/Navbar"
 import AdvertisementCarousel from "../../ui/carousel/Carousel";
 import CreateCategoryForm from "../../ui/create-category-form/CreateCategoryForm";
+import axios from "axios"
+
+
 function Home() {
     return (
         <div>
             <div>
                 <NavbarComponent/>
-            </div>
-            <div>
-                <CreateCategoryForm/>
             </div>
             <div>
                 <AdvertisementCarousel/>

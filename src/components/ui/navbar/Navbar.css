@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #0D6EFD;
+    --bs-navbar-color: #fff;
+    --bs-navbar-brand-color: #ffffff;
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-disabled-color: #fff;
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+}

@@ -12,12 +12,10 @@ function AdvertisementCarousel() {
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
             <Carousel.Item>
                 <Container>
                     <Row>
-                        <Col><AdvertiseCard/></Col>
-                        <Col><AdvertiseCard/></Col>
                         <Col><AdvertiseCard/></Col>
                     </Row>
                 </Container>
@@ -28,22 +26,20 @@ function AdvertisementCarousel() {
                 <Container>
                     <Row>
                         <Col><AdvertiseCard/></Col>
-                        <Col><AdvertiseCard/></Col>
-                        <Col><AdvertiseCard/></Col>
                     </Row>
                 </Container>
                 <Carousel.Caption>
+                    Ночь темна и полна ужасов
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <Container>
                     <Row>
                         <Col><AdvertiseCard/></Col>
-                        <Col><AdvertiseCard/></Col>
-                        <Col><AdvertiseCard/></Col>
                     </Row>
                 </Container>
                 <Carousel.Caption>
+                    Ночь темна и полна ужасов
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
